@@ -13,7 +13,9 @@
 		4370B231205CA80D00292E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4370B22F205CA80D00292E02 /* LaunchScreen.storyboard */; };
 		4370B23C205CA80D00292E02 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370B23B205CA80D00292E02 /* ColorsTests.swift */; };
 		4370B247205CA80D00292E02 /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370B246205CA80D00292E02 /* ColorsUITests.swift */; };
-		4370B255205CA83800292E02 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370B254205CA83800292E02 /* MainView.swift */; };
+		43BA858B2065B8FF000E5C06 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA858A2065B8FF000E5C06 /* ColorsViewController.swift */; };
+		43BA858D2065BDB5000E5C06 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA858C2065BDB5000E5C06 /* ColorDetailViewController.swift */; };
+		43BA858F2065BE6C000E5C06 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA858E2065BE6C000E5C06 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +48,9 @@
 		4370B242205CA80D00292E02 /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4370B246205CA80D00292E02 /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		4370B248205CA80D00292E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4370B254205CA83800292E02 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		43BA858A2065B8FF000E5C06 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		43BA858C2065BDB5000E5C06 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		43BA858E2065BE6C000E5C06 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				4370B226205CA80D00292E02 /* AppDelegate.swift */,
-				4370B254205CA83800292E02 /* MainView.swift */,
 				4370B22A205CA80D00292E02 /* Main.storyboard */,
 				4370B22D205CA80D00292E02 /* Assets.xcassets */,
 				4370B22F205CA80D00292E02 /* LaunchScreen.storyboard */,
 				4370B232205CA80D00292E02 /* Info.plist */,
+				43BA858A2065B8FF000E5C06 /* ColorsViewController.swift */,
+				43BA858C2065BDB5000E5C06 /* ColorDetailViewController.swift */,
+				43BA858E2065BE6C000E5C06 /* Color.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BA858D2065BDB5000E5C06 /* ColorDetailViewController.swift in Sources */,
+				43BA858F2065BE6C000E5C06 /* Color.swift in Sources */,
+				43BA858B2065B8FF000E5C06 /* ColorsViewController.swift in Sources */,
 				4370B227205CA80D00292E02 /* AppDelegate.swift in Sources */,
-				4370B255205CA83800292E02 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
